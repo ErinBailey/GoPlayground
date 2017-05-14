@@ -5,11 +5,13 @@ import (
 )
 
 func main() {
-	num := 4
-	for num < 15 {
-		if num > 0 {
-			fmt.Println(num)
-			num++
-		}
+	num := 2
+	switch num {
+	case 1:
+		fmt.Println("this is 1")
+	case 2:
+		fmt.Println("this is 2")
+	case 3:
+		fmt.Println("this is 3")
 	}
 }
