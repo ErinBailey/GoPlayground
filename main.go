@@ -10,8 +10,14 @@ func main() {
 	fmt.Println(b)
 
 	var c int
-	fmt.Println(c)
+	fmt.Println("c", c)
 
 	var d = true
-	fmt.Println(d)
+	fmt.Println("d", d)
+
+	var e bool
+	fmt.Println("e", e)
+
+	var f string
+	fmt.Println("f", f)
 }
